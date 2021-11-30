@@ -57,7 +57,7 @@ def scrape():
     mars_df = pd.DataFrame(mars_facts[1])
     mars_df
 
-    ars_df.columns=['Measure', 'Value']
+    mars_df.columns=['Measure', 'Value']
     mars_df
 
     #Convert to html
