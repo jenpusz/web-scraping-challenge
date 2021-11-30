@@ -102,7 +102,14 @@ def scrape():
         print(img_url)
         print(title)
         print('----------------')
-
+        
+        mars_data = {
+          "news_title": news_title,
+            "news_p": news_p,
+            "featured_image_url": featured_img_url,
+            "mars_html" : str(mars_html),
+            "hemisphere_image_urls": hemisphere_pic_urls
+        }
     browser.quit()
 
     # Return results
